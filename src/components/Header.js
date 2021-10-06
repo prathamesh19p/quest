@@ -1,9 +1,9 @@
-import React from "react";
+
 
 const Header = () => {
-    return(
+    return (
         <div className="app-header">
-            <h1>Quest List</h1>
+            <h1>Quest</h1>
         </div>
     )
 }
