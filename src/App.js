@@ -1,7 +1,7 @@
 import {
-  BrowserRouter as Router,
   Switch,
-  Route,
+  Route,  
+  BrowserRouter as Router,
   Link
 } from "react-router-dom";
 
@@ -11,7 +11,6 @@ import Notes from './pages/Notes'
 import Note from './pages/Note'
 
 function App() {
-
   return (
     <Router>
       <div className="container dark">
